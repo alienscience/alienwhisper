@@ -1,0 +1,116 @@
+
+body {
+    font-family: Georgia, Garamond, serif; 
+    background-color: #daddfb;
+    text-align: center;
+    margin: auto auto;
+}
+
+h1 {
+    font-family: font-family: Verdana, Helvetica, "Lucida Grande", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2.25em;
+    line-height: 1.1;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.66;
+    margin-top: 0.85em;
+    margin-bottom: 0.85em;
+    color: #797fa8;
+}
+
+p {
+    text-align: left;
+    line-height: 1.25;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
+p + p {
+    text-indent: 1em;
+    margin-top: 0;
+}
+
+a:link {color: #797fa8}
+a:visited {color: #797fa8}
+
+input {
+    border: solid 1px;
+}
+
+input:focus { 
+    border-color: #797fa8;
+    border-width: 1px;
+}
+
+.content {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #fff;
+    padding-bottom: 1.5em;
+    padding-right: 1.5em;
+}
+
+.calltoaction {
+    width: 35em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    display: inline-block;
+}
+
+.login {
+    margin-top: 2.50em;
+    margin-left: 1.25em;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    display: inline-block;
+    vertical-align: top;
+    border-left: dashed 1px;
+}
+
+.inputgrp {
+    line-height: 1.25;
+    margin-bottom: 1.5em;
+}
+
+label {
+    width: 6.25em;
+    float: left;
+    text-align: right;
+    margin-right: 0.75em;
+    display: block;
+}
+
+.submit {
+    float: left;
+    margin-left: 7.00em;
+}
+
+.button {
+    font-family: Georgia, Garamond, serif; 
+    font-size: 1.0em;
+    border: solid 1px #000;
+    background-color: #fff;
+    margin-right: 0.75em;
+}
+
+.logo {
+    font-family: font-family: Verdana, Helvetica, "Lucida Grande", Arial, sans-serif;
+    font-size: 2.75em;
+    line-height: 1.2;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: block;
+    text-align: center;
+}
+
+.logofaint {
+    color: #daedfb;
+}
