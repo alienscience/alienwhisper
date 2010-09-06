@@ -22,10 +22,9 @@ function test_assert()
 
 function test_encrypt()
 {
-    var x = new sjcl.cipher.aes("woot");
     var c = new alienwhisper.crypt();
     var plaintext = "Hello world";
-    var key = "testkey";
+    var key = sjcl.codec.hex.toBits("45E84D40 D9CC8F9F 9F697776 923815C8");
     var encrypted = c.encrypt(key, plaintext);
     assert_equals(plaintext, c.decrypt(key, encrypted));
 }
