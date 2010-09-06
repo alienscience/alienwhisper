@@ -67,6 +67,10 @@ function am3(i,x,w,j,c,n) {
   }
   return c;
 }
+if (typeof navigator == 'undefined') {
+    var navigator = {};
+    navigator.appName = "Rhino";
+}
 if(j_lm && (navigator.appName == "Microsoft Internet Explorer")) {
   BigInteger.prototype.am = am2;
   dbits = 30;
